@@ -1,0 +1,151 @@
+body {
+		padding: 0;
+		margin:0;
+	}
+	#track {
+		background-color: #A8AAA9;
+		width:205px;
+		height:400px;
+		border: 1px solid black;
+		position: relative;
+		margin:50px auto;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.auto {
+
+		width:25px;
+		height: 48px;
+		border: 1px solid black;
+		border-radius: 10px;
+		position: absolute;
+
+		
+
+	}
+	.first {
+		background-color: red;
+		left: 5px;
+		top:0;
+		background: url(autos.jpg) -103px -6px no-repeat;
+		background-size: 200px 190px;
+		
+	}
+	.two {
+	
+		left: 45px;
+		top:0;
+		background: url(autos.jpg) -75px -3px no-repeat;
+		background-size: 200px 190px;
+		height:55px;
+		width: 26px;
+		border-radius: 6px;
+		
+	}
+	.fri {
+	
+		height:54px;
+		left: 85px;
+		top:0;
+		background: url(autos.jpg) -109px -56px no-repeat;
+		background-size: 200px 170px;
+		border-radius: 4px;
+		
+
+	}
+	.four {
+		
+		height:55px;
+		left: 125px;
+		top:0;
+		background: url(autos.jpg) -81px -59px no-repeat;
+		background-size: 200px 190px;
+		border-radius: 4px;
+		
+	}
+	.five {
+		
+		height:55px;
+		left: 165px;
+		top:0;
+
+		background: url(autos.jpg) -139px -96px no-repeat;
+		background-size: 200px 190px;
+
+		border-radius: 4px;
+		
+	}
+	.gamer {
+		background: url(8T_z95lCpck.png) -21px -11px no-repeat;
+		background-size: 400px 420px;
+		
+		top:350px;
+		left:80px;
+		text-align: center;
+		font-weight: bold;
+
+	}
+	#go {
+		width: 205px;
+		font: 30px black Arial;
+		height: 50px;
+		border-radius: 7px;
+		border: 2px solid black;
+		text-align: center;
+		line-height: 50px;
+		background-color: #E4FFDC;
+		margin: 10px auto;
+		transition: 0.5s;
+		cursor: pointer;
+
+	}
+	#go:hover {
+		background-color: #FFFFB9;
+		font-size: 35px;
+	}
+	#chetchik {
+		width:100px;
+		height:26px;
+		font:18px Arial;
+		color: #ccc;
+		text-align: center;
+		line-height: 26px;
+		position: absolute;
+		top:150px;
+		right:430px;
+		border: 1px solid black;
+
+	}
+	#conta {
+		width: 500px;
+		height: 70px;
+		display: none;
+		border:1px solid black;
+		
+	}
+	span {
+		border: 1px solid black;
+		border-top: 2px solid red;
+		background-size: 400px 420px;
+		position: absolute;
+		left:100px;
+		top:300px;
+		box-sizing: border-box;
+		display: none;
+		transform: rotate(-90deg);
+	}
+	.cars1 {
+		background: url(8T_z95lCpck.png)  -21px -11px no-repeat;
+		width:27px;
+		background-size: 400px 420px;
+		border-radius: 10px;
+		height: 55px;
+	}
+	.cars2 {
+		background: url(8T_z95lCpck.png)  -26px -130px no-repeat;
+		width:27px;
+		top:340px;
+		background-size: 400px 420px;
+		border-radius: 5px;
+		height: 55px;
+	}
